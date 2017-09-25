@@ -6,3 +6,10 @@ if($input == 0){
 }else{
   echo "あたり";
 }
+echo "りんごは赤い　赤いなら0を";
+$input = fgets(STDIN);
+if($input == 0){
+  echo "あたり";
+}else{
+  echo "はずれ";
+}
