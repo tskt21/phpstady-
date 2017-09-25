@@ -13,3 +13,5 @@ if($input == 0){
 }else{
   echo "はずれ";
 }
+$input=fgets(STDIN);
+echo $input * 3;
